@@ -358,7 +358,7 @@ def write_catalog_csvs(all_scores: dict[str, dict[str, list[dict]]]) -> None:
         "midi_policy": "No program changes, controllers, pitch bends, keyswitches, or SysEx in symbolic exports.",
         "gm_fallback": "Mappings are not encoded. A generic player may use its default piano-like pitched sound and GM-style channel 10 percussion.",
         "roles": [{"role": role, "description": description, "wire_channel": wire, "user_facing_channel": display, "polyphony_cap": cap} for role, description, wire, display, cap in ROLES],
-        "gain_stages": {"role_target": "approximately -20 dBFS before summing", "master_processing": "none", "loudness_claim": "none"},
+        "gain_stages": {"role_gain_before_velocity": {"chord_pulse": 0.045, "sub_bass": 0.11, "principal_motif": 0.055, "vocal_like_synth": 0.042, "counter_texture": 0.03, "drums": 0.10}, "velocity_scaling": "velocity / 127", "sum_processing": "clamped to +/-0.95 before PCM encoding", "loudness_claim": "none"},
     }
     write_json(catalog / "patch-recipes-Codex.json", recipes)
 
@@ -450,7 +450,7 @@ def render_preview(source: Path) -> tuple[Path, dict]:
         "preview_path": relative(mp3), "preview_sha256": digest(mp3),
         "source_midi_path": relative(source), "source_midi_sha256": digest(source),
         "renderer": "footwork-simple-synth-Codex 1.0.0",
-        "renderer_configuration": {"sample_rate": rate, "source_tracks": sorted(source_events), "processing": "per-voice envelopes only, followed by MP3 encoding"},
+        "renderer_configuration": {"sample_rate": rate, "source_tracks": sorted(source_events), "processing": "Per-voice synthesis and envelopes; summed samples are clamped to +/-0.95, converted to 16-bit stereo PCM and encoded to 192 kb/s MP3."},
         "selection": {"study": "f01", "start_seconds": 0, "end_seconds": round(duration, 3)},
         "measurement": {"sample_peak": round(peak, 6), "not_lufs_or_true_peak": True},
         "limitations": "Automated generation and decode checks only. Nobody auditioned this preview. Simple synthesis is not evidence of a finished production sound.",

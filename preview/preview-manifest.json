@@ -15,7 +15,7 @@
       "sub_bass",
       "vocal_like_synth"
     ],
-    "processing": "per-voice envelopes only, followed by MP3 encoding"
+    "processing": "Per-voice synthesis and envelopes; summed samples are clamped to +/-0.95, converted to 16-bit stereo PCM and encoded to 192 kb/s MP3."
   },
   "selection": {
     "study": "jc01",

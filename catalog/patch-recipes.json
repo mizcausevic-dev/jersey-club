@@ -47,8 +47,16 @@
     }
   ],
   "gain_stages": {
-    "role_target": "approximately -20 dBFS before summing",
-    "master_processing": "none",
+    "role_gain_before_velocity": {
+      "chord_pulse": 0.045,
+      "sub_bass": 0.11,
+      "principal_motif": 0.055,
+      "vocal_like_synth": 0.042,
+      "counter_texture": 0.03,
+      "drums": 0.1
+    },
+    "velocity_scaling": "velocity / 127",
+    "sum_processing": "clamped to +/-0.95 before PCM encoding",
     "loudness_claim": "none"
   }
 }

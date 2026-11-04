@@ -47,3 +47,7 @@ python -m http.server 4173
 ```
 
 `tools/build_footwork.py` is the local MIDI byte engine retained from the initial release; `tools/build_release.py` is the profile-driven release writer. The committed outputs, rather than an external service, are the build evidence.
+
+## Renderer metadata correction
+
+See [the correction receipt](RENDERER-METADATA-CORRECTION.md) for the documented signal-path update and original-tag boundary.

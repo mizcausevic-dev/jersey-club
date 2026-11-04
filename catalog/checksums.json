@@ -12,6 +12,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
+      "path": "README.md",
+      "bytes": 3144,
+      "sha256": "10f0284d7b87c486a2b786298160ec87e5e0a7222eb0b5509df06ee4231a8e54"
+    },
+    {
+      "path": "RENDERER-METADATA-CORRECTION.md",
+      "bytes": 753,
+      "sha256": "40d1f0e5ef2fade78e474c6ca40fc3237eacdb668fce03a58b8b4d3508063101"
+    },
+    {
       "path": "art/cover-provenance.json",
       "bytes": 266,
       "sha256": "66ad99479f0e69c75988741a5ab6b86f1a4b18aa17a18129f7eb323ba8e55a39"
@@ -43,8 +53,8 @@
     },
     {
       "path": "catalog/patch-recipes.json",
-      "bytes": 1618,
-      "sha256": "d7c9a6b3d05f044fba44694b1f6169ba1efd9575895d9c109dff0ce048bcbb59"
+      "bytes": 1840,
+      "sha256": "bc419ebc7ecfdc2cbb1130a5391ec310f123e54d3ec3469acb001954f397e028"
     },
     {
       "path": "catalog/release-spec.json",
@@ -78,8 +88,8 @@
     },
     {
       "path": "downloads/jersey-club-midi.zip",
-      "bytes": 34314,
-      "sha256": "d3ed88acbde8c8ded40ef5e291a4193a0b3079858be98604697767434459e9a5"
+      "bytes": 35836,
+      "sha256": "7557ed88e86ca1e25cf47cf4d3fc7070c0eb4996fcea054a6c980f765c4b8b97"
     },
     {
       "path": "index.html",
@@ -233,13 +243,8 @@
     },
     {
       "path": "preview/preview-manifest.json",
-      "bytes": 1041,
-      "sha256": "82c0b5487c007f6432a538ce8be0967d68385fac75319d01175591f378b4d9ba"
-    },
-    {
-      "path": "README.md",
-      "bytes": 2983,
-      "sha256": "5685107ab11aae7246032c20ceee80396c1020a9c32d2e71724288f687a3edef"
+      "bytes": 1124,
+      "sha256": "3fc39c1bd348d1413b91aa24d5f4c39a9907ba51e76f283ec705f0db917b3e0f"
     },
     {
       "path": "social/instagram/caption.txt",
@@ -253,13 +258,13 @@
     },
     {
       "path": "tools/build_footwork.py",
-      "bytes": 46672,
-      "sha256": "d746782d6acd6b1dcde4190527544e5b59765b73e6c01ec1f66af5e2ac057532"
+      "bytes": 46932,
+      "sha256": "bcf2c82d909ad5b5b4afce885c34f9a2c2e799660d5c3cda80ec89beffa6f994"
     },
     {
       "path": "tools/build_release.py",
-      "bytes": 47235,
-      "sha256": "c0abe9cf1a144cdc7da7a652cae05056e5b150082fbe129914d67230b97d1fc5"
+      "bytes": 47412,
+      "sha256": "a3156f76517f4653a5a51ed4786dbc3390adf3b976691399e2d7b2570f69e54f"
     },
     {
       "path": "tools/validate_release.py",
