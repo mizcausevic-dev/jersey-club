@@ -228,7 +228,7 @@ def validate(root: Path) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser(); parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1]); args = parser.parse_args(); root = args.root.resolve()
-    report = validate(root); target = root / "checks" / "validation-report.json"; target.parent.mkdir(parents=True, exist_ok=True); target.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    report = validate(root); target = root / "checks" / "validation-report.json"; target.parent.mkdir(parents=True, exist_ok=True); target.write_bytes((json.dumps(report, indent=2) + "\n").encode("utf-8"))
     print(json.dumps({"status": report["status"], "errors": len(report["errors"]), "warnings": len(report["warnings"]), "report": target.relative_to(root).as_posix()}, indent=2)); return 0 if report["status"] == "PASS" else 1
 
 

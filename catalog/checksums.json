@@ -13,8 +13,8 @@
     },
     {
       "path": "art/cover-provenance.json",
-      "bytes": 271,
-      "sha256": "4200d67ef0ef9eaf5d73eee4a2d1278d6f2b6801e839776a657da6539fe18073"
+      "bytes": 266,
+      "sha256": "66ad99479f0e69c75988741a5ab6b86f1a4b18aa17a18129f7eb323ba8e55a39"
     },
     {
       "path": "art/cover.svg",
@@ -23,48 +23,48 @@
     },
     {
       "path": "articles/medium-draft.md",
-      "bytes": 717,
-      "sha256": "4aaf794656e2da6d578c32791ccc02b62afd2302d5f53eab6ec721fd9aa50c4a"
+      "bytes": 706,
+      "sha256": "e81664faa4782a92661a368abc2d8010c20965946810ebed3f99fb918161d8ee"
     },
     {
       "path": "catalog/drum-map.csv",
-      "bytes": 164,
-      "sha256": "f659ca6fd9195115423fe30bed8168d8234160b470508949e5ba1d5fcccc0ce0"
+      "bytes": 158,
+      "sha256": "ee5949764a6e42171b113a12ed1b18e3cb7f97fdcf48a545348cb8fdaf611c5c"
     },
     {
       "path": "catalog/harmonic-events.csv",
-      "bytes": 22711,
-      "sha256": "b33c2ce5ee7e1c543403bd6c199a8df4d7229335e9371dc8bc80cce065c7f2cc"
+      "bytes": 22582,
+      "sha256": "6f94f3776e6980164526b0a8b6fb7978753df603ccad2f6d0dba779b08b53e00"
     },
     {
       "path": "catalog/note-events.csv",
-      "bytes": 142241,
-      "sha256": "e9b542e51ae26fcc1dc28ef58a58c654e31e9b34696ce4b546e7dc3a2f4947d5"
+      "bytes": 138684,
+      "sha256": "b27b0076cbd300247d69ecfe7a3e8ebab2f72e0f272d81902cf6954a4b554e55"
     },
     {
       "path": "catalog/patch-recipes.json",
-      "bytes": 1672,
-      "sha256": "fb543c0d24ee6bb166d11fa1407f30d19895e4e52c3b62d746efca8d1e66e80d"
+      "bytes": 1618,
+      "sha256": "d7c9a6b3d05f044fba44694b1f6169ba1efd9575895d9c109dff0ce048bcbb59"
     },
     {
       "path": "catalog/release-spec.json",
-      "bytes": 2478,
-      "sha256": "d06895344cdf1e019556a920cd896d9565d605a3d14f7812f65ba9d79ee97aee"
+      "bytes": 2394,
+      "sha256": "7aa11a40abdb0629247e8e0acee65578920707f29b533d97dd1d47fd1cc938a9"
     },
     {
       "path": "catalog/structural-regions.csv",
-      "bytes": 817,
-      "sha256": "ee386d1a77832e95e14f054f6f6a18ca6cf5fa2ca0f31fea618f9b3f53cc7a8b"
+      "bytes": 800,
+      "sha256": "79f493eb4972d1e185cf0e843c14df876c919a82f9fbf0d75d77741af7f702e6"
     },
     {
       "path": "catalog/study-index.csv",
-      "bytes": 975,
-      "sha256": "c3b45364e335013552dc3114a56fd553e0b9e3a91f5047bae67935053209b2cc"
+      "bytes": 970,
+      "sha256": "0bda3a1e1b8a8c4d6022514d02c4404008a02fc3210955b83cbf0b0ddf9a1992"
     },
     {
       "path": "checks/build-metadata.json",
-      "bytes": 372,
-      "sha256": "31d2d2fa889bf1e3853130c640ff488f729c7f5bc44ab20569dbe4b9eede9e35"
+      "bytes": 361,
+      "sha256": "dd8edde4f637c87c9cf752ad3ab46e44a9d1e54c361b5aea9c98064fdc36a475"
     },
     {
       "path": "checks/fixtures/invalid-same-pitch-overlap.mid",
@@ -72,29 +72,19 @@
       "sha256": "770a4342c942a1b9c397764512ec163cdcfe1d2fbbe342eccc7e4a0d01c414ad"
     },
     {
-      "path": "delivery-Codex.md",
-      "bytes": 2003,
-      "sha256": "32407a2474561eb063c27fea3f6721c3b52fa66dc34a9ec93ee7897e415534e1"
-    },
-    {
       "path": "delivery.md",
-      "bytes": 404,
-      "sha256": "8cad05a00058c8f478c03dc9338c737674877fa918da53a62012dd211f7733b5"
+      "bytes": 397,
+      "sha256": "965aab3f0568efe62956507556bc2d0974e6e57762830fe489f427d288db6579"
     },
     {
       "path": "downloads/jersey-club-midi.zip",
-      "bytes": 34425,
-      "sha256": "8ae1f9a6878f2587d4f9bbe658ca7766c3d1a82bdc9ae52aa42fe97005ca6996"
-    },
-    {
-      "path": "EXECPLAN-Codex.md",
-      "bytes": 6506,
-      "sha256": "9a98d24c530658bd17597da3a9ec3cab1c9a1e45c176ff7b972b275a64408191"
+      "bytes": 34314,
+      "sha256": "d3ed88acbde8c8ded40ef5e291a4193a0b3079858be98604697767434459e9a5"
     },
     {
       "path": "index.html",
-      "bytes": 8915,
-      "sha256": "29c4a8252c98165da6acc9a88c2661dc9ad47452d27ab313f8cda99f3ccb42f7"
+      "bytes": 8913,
+      "sha256": "e6fed888b5a124eac32de865996ed5088808e07f2c4249c7de73587afd30cc7e"
     },
     {
       "path": "midi/jc01-latch-point/chord_pulse.mid",
@@ -243,23 +233,23 @@
     },
     {
       "path": "preview/preview-manifest.json",
-      "bytes": 1071,
-      "sha256": "3f78d81755e6a2c69ee79d14212c4712513116a993d38c9e7bab9550fa15b7c5"
+      "bytes": 1041,
+      "sha256": "82c0b5487c007f6432a538ce8be0967d68385fac75319d01175591f378b4d9ba"
     },
     {
       "path": "README.md",
-      "bytes": 3032,
-      "sha256": "2d219ec30c60399003cff28f4bcd920f728dbbcd483fc9159922715b27453a79"
+      "bytes": 2983,
+      "sha256": "5685107ab11aae7246032c20ceee80396c1020a9c32d2e71724288f687a3edef"
     },
     {
       "path": "social/instagram/caption.txt",
-      "bytes": 276,
-      "sha256": "084d601b1948219e5108f2176e1e0d81cc86c46a92bc49d6ea6b238fb28e3954"
+      "bytes": 273,
+      "sha256": "bf9ad7d508774f7037b81a63fa573fa4822332be319c36771b4dd2e81feada33"
     },
     {
       "path": "social/x/post.txt",
-      "bytes": 179,
-      "sha256": "b5137fb8f1e7befe7744689fb0afe4807d6f5e72cb186446f45026c6320903cf"
+      "bytes": 176,
+      "sha256": "7c1be3b7610ebe0800c3595b7cbaa1b6e84f1aadd9ab37d271f6a431f29f38ae"
     },
     {
       "path": "tools/build_footwork.py",
@@ -268,18 +258,13 @@
     },
     {
       "path": "tools/build_release.py",
-      "bytes": 47206,
-      "sha256": "db60d5b1abff81666b4fb63fb9cb0b740f962fd5092995b481be58f342f2ee7c"
-    },
-    {
-      "path": "tools/validate_footwork.py",
-      "bytes": 15967,
-      "sha256": "084fde417bf50278e650cbfbc8561f7cd79be402f6480f9384f073591914fe77"
+      "bytes": 47235,
+      "sha256": "c0abe9cf1a144cdc7da7a652cae05056e5b150082fbe129914d67230b97d1fc5"
     },
     {
       "path": "tools/validate_release.py",
-      "bytes": 13762,
-      "sha256": "d2bbd02298b0ff44548f7008ec61210cdeec5b051591b44f65680184eb03b53e"
+      "bytes": 13763,
+      "sha256": "c590a3c9e44249ddc1a2d14a048dea0f3e1ef0a232d3b86ea96a0f4eafeff6a5"
     }
   ]
 }
