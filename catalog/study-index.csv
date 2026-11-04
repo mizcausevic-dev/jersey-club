@@ -1,0 +1,5 @@
+study_id,title,collection,tonic,tempo_bpm,meter,ppq,bars,end_tick,combined_path,roles
+jc01,Latch Point,pack-local equal-tempered pitch collection,D,138,4/4,480,32,61440,midi/jc01-latch-point/jc01-latch-point-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+jc02,Quickstep Relay,pack-local equal-tempered pitch collection,F,138,4/4,480,32,61440,midi/jc02-quickstep-relay/jc02-quickstep-relay-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+jc03,Cut Window,pack-local equal-tempered pitch collection,G#,138,4/4,480,32,61440,midi/jc03-cut-window/jc03-cut-window-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+jc04,Voltage Return,pack-local equal-tempered pitch collection,D#,138,4/4,480,32,61440,midi/jc04-voltage-return/jc04-voltage-return-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums

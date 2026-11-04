@@ -1,0 +1,30 @@
+{
+  "label": "preview, not a master.",
+  "preview_path": "preview/jersey-club-simple-synth-preview.mp3",
+  "preview_sha256": "fc40d348eeebb050c736ce4e4fc3d7eaf9f6255bd7562b9c290bd2a2d87be868",
+  "source_midi_path": "midi/jc01-latch-point/jc01-latch-point-combined.mid",
+  "source_midi_sha256": "dbbad97875093d9fba45878a24a7558668c08a38a6068f1c4df148a5b8ba6c46",
+  "renderer": "release-simple-synth 1.0.0",
+  "renderer_configuration": {
+    "sample_rate": 44100,
+    "source_tracks": [
+      "chord_pulse",
+      "counter_texture",
+      "drums",
+      "principal_motif",
+      "sub_bass",
+      "vocal_like_synth"
+    ],
+    "processing": "per-voice envelopes only, followed by MP3 encoding"
+  },
+  "selection": {
+    "study": "jc01",
+    "start_seconds": 0,
+    "end_seconds": 55.652
+  },
+  "measurement": {
+    "sample_peak": 0.147257,
+    "not_lufs_or_true_peak": true
+  },
+  "limitations": "Automated generation and decode checks only. Nobody auditioned this simple-synthesis preview. It is not a finished-production sound or master."
+}
