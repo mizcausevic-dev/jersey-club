@@ -1,0 +1,26 @@
+{
+  "title": "Jersey Club",
+  "study": "jc01",
+  "bpm": 138,
+  "source_audio": "preview/jersey-club-simple-synth-preview.mp3",
+  "source_audio_sha256": "fc40d348eeebb050c736ce4e4fc3d7eaf9f6255bd7562b9c290bd2a2d87be868",
+  "source_midi": "midi/jc01-latch-point/jc01-latch-point-combined.mid",
+  "source_midi_sha256": "dbbad97875093d9fba45878a24a7558668c08a38a6068f1c4df148a5b8ba6c46",
+  "source_events": "catalog/note-events.csv",
+  "source_events_sha256": "b27b0076cbd300247d69ecfe7a3e8ebab2f72e0f272d81902cf6954a4b554e55",
+  "art_source_file": "film/motion-artwork.webp",
+  "art_source_sha256": "6a50f91747511cc7dcec62a9a919e94acf0cb7012fe6b754dad5fe4bd9e0e6fd",
+  "excerpt_start_seconds": 0,
+  "duration_seconds": 18.0,
+  "video": "film/motion-preview.mp4",
+  "video_sha256": "a6a599bcbd9c6dbddafb9108d17d49d575362bbfaec9de88d0d86ef04f702b64",
+  "caption": "film/motion-preview.vtt",
+  "resolution": "960x540",
+  "fps": 15,
+  "visualization": "Scrolling note events from the selected score over a moving cover image",
+  "disclosure": "preview, not master",
+  "limitations": [
+    "Simple-synth rendering, not a recorded performance.",
+    "No human listening review recorded."
+  ]
+}
