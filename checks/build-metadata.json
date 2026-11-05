@@ -1,11 +1,11 @@
 {
   "generator_version": "release-train-1.0.0",
   "pack": "jersey-club",
-  "source_builder_sha256": "c0abe9cf1a144cdc7da7a652cae05056e5b150082fbe129914d67230b97d1fc5",
+  "source_builder_sha256": "8a889b9a87e94127a351ae28bfd0c163ad812a96d28a843d18e6c0649de52b11",
   "commands": [
     "python tools/build_release.py --pack jersey-club",
     "python tools/validate_release.py"
   ],
-  "run_time_utc": "2026-11-04T03:06:11.028905+00:00",
+  "run_time_utc": "2026-11-05T23:22:24.415014+00:00",
   "python": "3.14.0"
 }

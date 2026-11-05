@@ -12,21 +12,6 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "MOTION-PREVIEW.md",
-      "bytes": 782,
-      "sha256": "519599249a948c3fba36cb5bbe7063a1b9553bdbf74a93de179f20e3b754e841"
-    },
-    {
-      "path": "README.md",
-      "bytes": 3144,
-      "sha256": "10f0284d7b87c486a2b786298160ec87e5e0a7222eb0b5509df06ee4231a8e54"
-    },
-    {
-      "path": "RENDERER-METADATA-CORRECTION.md",
-      "bytes": 753,
-      "sha256": "40d1f0e5ef2fade78e474c6ca40fc3237eacdb668fce03a58b8b4d3508063101"
-    },
-    {
       "path": "art/cover-provenance.json",
       "bytes": 266,
       "sha256": "66ad99479f0e69c75988741a5ab6b86f1a4b18aa17a18129f7eb323ba8e55a39"
@@ -53,8 +38,8 @@
     },
     {
       "path": "catalog/note-events.csv",
-      "bytes": 138684,
-      "sha256": "b27b0076cbd300247d69ecfe7a3e8ebab2f72e0f272d81902cf6954a4b554e55"
+      "bytes": 125018,
+      "sha256": "5e3e204635ee70e00dc022dbcc99b6e5d5a79b8c2124d41a3768e892ff095b46"
     },
     {
       "path": "catalog/patch-recipes.json",
@@ -79,7 +64,7 @@
     {
       "path": "checks/build-metadata.json",
       "bytes": 361,
-      "sha256": "dd8edde4f637c87c9cf752ad3ab46e44a9d1e54c361b5aea9c98064fdc36a475"
+      "sha256": "b391d0ab9c46e81e8febe071aa791859d72dac122c26fc55727cdd12594721dd"
     },
     {
       "path": "checks/fixtures/invalid-same-pitch-overlap.mid",
@@ -93,8 +78,8 @@
     },
     {
       "path": "downloads/jersey-club-midi.zip",
-      "bytes": 35836,
-      "sha256": "7557ed88e86ca1e25cf47cf4d3fc7070c0eb4996fcea054a6c980f765c4b8b97"
+      "bytes": 32096,
+      "sha256": "388e96b0edaf0ad6d223e61cf3f9fa1d969bc5c84e3a6415ee069977d0cce365"
     },
     {
       "path": "film/motion-artwork.webp",
@@ -103,13 +88,13 @@
     },
     {
       "path": "film/motion-manifest.json",
-      "bytes": 1185,
-      "sha256": "85934e080a799d47eec831c7000c6f952926fce60ced449f9358eed6083d5658"
+      "bytes": 1211,
+      "sha256": "8385b8e4701f6ff41425715f0c48959aad8901379ae0c626fdbd603d53e05454"
     },
     {
       "path": "film/motion-note-roll.png",
-      "bytes": 3336,
-      "sha256": "7a06950c3002814d69ba6d5f35caac20c25332d5932f8cb46c3e073ed6f1397d"
+      "bytes": 3230,
+      "sha256": "1cded24eeb189cdb7b82ace096c6ca99c80a29a08e7a5d20048ec912e29845d1"
     },
     {
       "path": "film/motion-overlay.png",
@@ -118,8 +103,8 @@
     },
     {
       "path": "film/motion-preview.mp4",
-      "bytes": 903332,
-      "sha256": "a6a599bcbd9c6dbddafb9108d17d49d575362bbfaec9de88d0d86ef04f702b64"
+      "bytes": 850939,
+      "sha256": "17147aa59f3d6b8f43b5f38726db96e2887547f1455a314f23ba607c46353f21"
     },
     {
       "path": "film/motion-preview.vtt",
@@ -128,8 +113,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 9431,
-      "sha256": "0f215ec6600b3c222ee74e7b5640d792635288b911b59d65e3078acd898cc98f"
+      "bytes": 10305,
+      "sha256": "1fc6627970b659656b0872f57ee82bf98a40df1e5d9af491f1b56304fc5d9095"
     },
     {
       "path": "midi/jc01-latch-point/chord_pulse.mid",
@@ -148,13 +133,13 @@
     },
     {
       "path": "midi/jc01-latch-point/jc01-latch-point-combined.mid",
-      "bytes": 8179,
-      "sha256": "dbbad97875093d9fba45878a24a7558668c08a38a6068f1c4df148a5b8ba6c46"
+      "bytes": 7495,
+      "sha256": "8f18485fc4d1d392132ee7c5fe604e384fe56ec39bd87f9319ba34bfef850a74"
     },
     {
       "path": "midi/jc01-latch-point/principal_motif.mid",
-      "bytes": 1632,
-      "sha256": "addf892df43542ed330e3ea73f56c7892681472e81d8867b37d16e95e883bafb"
+      "bytes": 948,
+      "sha256": "ce039e7cf7242c72bc4b6b893f0165fd51b0d7bfa8ca02298b5608b5f7c03f41"
     },
     {
       "path": "midi/jc01-latch-point/sub_bass.mid",
@@ -183,13 +168,13 @@
     },
     {
       "path": "midi/jc02-quickstep-relay/jc02-quickstep-relay-combined.mid",
-      "bytes": 8180,
-      "sha256": "1de487b5eda337b353356dbc8dd8c2ba36bd1364107d2c6d06e8713befd70dc7"
+      "bytes": 7496,
+      "sha256": "40e093f48b86b94d716b51c642fccdc75935542286f21db0a9532a3b2169d8e2"
     },
     {
       "path": "midi/jc02-quickstep-relay/principal_motif.mid",
-      "bytes": 1633,
-      "sha256": "2a4bf2e125910182815e12f89c1ad585eb00599326ada35993e1049a0c1908f5"
+      "bytes": 949,
+      "sha256": "352293d1d0e07b0658b8721a43bc32ce06825d415eaee3f66f639e5de3330b53"
     },
     {
       "path": "midi/jc02-quickstep-relay/sub_bass.mid",
@@ -218,13 +203,13 @@
     },
     {
       "path": "midi/jc03-cut-window/jc03-cut-window-combined.mid",
-      "bytes": 8179,
-      "sha256": "2be2ddc0f4867006c0e79c2470fecb0620720db34d02c3f477543d3840807b1c"
+      "bytes": 7495,
+      "sha256": "975b6492de5fde92d03a85ee009ad9bbee91771ac76189046716c375e66f90b4"
     },
     {
       "path": "midi/jc03-cut-window/principal_motif.mid",
-      "bytes": 1632,
-      "sha256": "4e8e508d5998ed5014e885e0519042c580eb395c010589268849220d3c72b59e"
+      "bytes": 948,
+      "sha256": "3ef92c7f00dfe85c861ed8dc738230dd6c97dddb1167dd44b83a72fb84d116d2"
     },
     {
       "path": "midi/jc03-cut-window/sub_bass.mid",
@@ -253,13 +238,13 @@
     },
     {
       "path": "midi/jc04-voltage-return/jc04-voltage-return-combined.mid",
-      "bytes": 8179,
-      "sha256": "86be0f9219ee16b9d1588cadd8d3c4b9e0a4f5c82a85e0c659c8b2009f9c46dc"
+      "bytes": 7496,
+      "sha256": "2f555787a42ce8f2f812b2e413c89c93833402785e3c4bb88d60b535ae810c92"
     },
     {
       "path": "midi/jc04-voltage-return/principal_motif.mid",
-      "bytes": 1632,
-      "sha256": "f18375c0f641c81ec7d354a3a9743e7cf37f8fe5de67f260c59ef322d5defcdc"
+      "bytes": 949,
+      "sha256": "0774e0bb7e69c8ec9aaa7cc319457a79abfe722b8343b087f4f3db9da24dea24"
     },
     {
       "path": "midi/jc04-voltage-return/sub_bass.mid",
@@ -272,14 +257,34 @@
       "sha256": "879d5d907a3ace2f0e115b8c8e2771e2d5b55d300e593edab817ee6f8bcba43f"
     },
     {
+      "path": "MOTION-PREVIEW.md",
+      "bytes": 782,
+      "sha256": "519599249a948c3fba36cb5bbe7063a1b9553bdbf74a93de179f20e3b754e841"
+    },
+    {
       "path": "preview/jersey-club-simple-synth-preview.mp3",
       "bytes": 1349216,
-      "sha256": "fc40d348eeebb050c736ce4e4fc3d7eaf9f6255bd7562b9c290bd2a2d87be868"
+      "sha256": "d9a531d4fbb3e7c01888337af824e67d6aa1563115c9750dbb0958e562b0c034"
     },
     {
       "path": "preview/preview-manifest.json",
       "bytes": 1124,
-      "sha256": "3fc39c1bd348d1413b91aa24d5f4c39a9907ba51e76f283ec705f0db917b3e0f"
+      "sha256": "daccfdf45d6c1415fc2ae55055253afbc0187704490e753396f1b224a22a7650"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3362,
+      "sha256": "034a315f1053a6d3e500b767bff949da5ba480838035565facaa98c806708826"
+    },
+    {
+      "path": "RENDERER-METADATA-CORRECTION.md",
+      "bytes": 753,
+      "sha256": "40d1f0e5ef2fade78e474c6ca40fc3237eacdb668fce03a58b8b4d3508063101"
+    },
+    {
+      "path": "REVISION.md",
+      "bytes": 754,
+      "sha256": "f3843e693a5c83fa0c14c3c4b589ef757911eceb071072dcdee4d12a3b5bb541"
     },
     {
       "path": "social/instagram/caption.txt",
@@ -298,8 +303,8 @@
     },
     {
       "path": "tools/build_release.py",
-      "bytes": 47412,
-      "sha256": "a3156f76517f4653a5a51ed4786dbc3390adf3b976691399e2d7b2570f69e54f"
+      "bytes": 47876,
+      "sha256": "8a889b9a87e94127a351ae28bfd0c163ad812a96d28a843d18e6c0649de52b11"
     },
     {
       "path": "tools/render_motion_preview.py",

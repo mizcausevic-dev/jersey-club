@@ -146,11 +146,15 @@ def compose(study: dict, study_index: int, pattern: int) -> dict[str, list[dict]
             shift = 60 if section == "transformed_return" and ordinal == 2 else 0
             add(score, "sub_bass", base + offset + shift, study["bass"][chord_index] + (12 if ordinal == 2 else 0), 210, 84 + ordinal * 6)
         if section != "introduction" or bar >= 4:
-            for ordinal, offset in enumerate(study["motifs"]):
+            # Jersey's short call-and-answer patterns use four different
+            # accent maps instead of the shared motif grid.
+            jersey_maps = ((180, 780, 1380), (420, 1140, 1620), (300, 900, 1500), (600, 1260, 1740))
+            offsets = jersey_maps[(bar + study_index) % 4] if pattern == 0 else study["motifs"]
+            for ordinal, offset in enumerate(offsets):
                 if section == "contrast" and ordinal in (1, 4):
                     continue
-                pitch = study["motif"][(ordinal + bar + (1 if section == "transformed_return" else 0)) % len(study["motif"])]
-                duration = 150 if ordinal % 3 else 210
+                pitch = study["motif"][(ordinal + bar + (1 if section == "transformed_return" else 0) + (bar // 4 if pattern == 0 else 0)) % len(study["motif"])]
+                duration = min(150 if ordinal % 3 else 210, BAR_TICKS - offset - (45 if ordinal == 2 and section in ("statement", "transformed_return") else 0))
                 add(score, "principal_motif", base + offset, pitch, duration, 74 + (ordinal % 3) * 8)
                 if ordinal == 2 and section in ("statement", "transformed_return"):
                     add(score, "principal_motif", base + offset + duration, pitch + 2, 45, 52, True)

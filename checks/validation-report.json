@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "run_time_utc": "2026-11-04T23:37:37.272481+00:00",
+  "run_time_utc": "2026-11-05T23:23:18.905157+00:00",
   "tool": "validate_release.py with Python 3.14.0",
   "files_checked": 28,
   "errors": [],
@@ -26,14 +26,14 @@
     },
     {
       "path": "midi/jc01-latch-point/jc01-latch-point-combined.mid",
-      "bytes": 8179,
-      "sha256": "dbbad97875093d9fba45878a24a7558668c08a38a6068f1c4df148a5b8ba6c46",
+      "bytes": 7495,
+      "sha256": "8f18485fc4d1d392132ee7c5fe604e384fe56ec39bd87f9319ba34bfef850a74",
       "errors": []
     },
     {
       "path": "midi/jc01-latch-point/principal_motif.mid",
-      "bytes": 1632,
-      "sha256": "addf892df43542ed330e3ea73f56c7892681472e81d8867b37d16e95e883bafb",
+      "bytes": 948,
+      "sha256": "ce039e7cf7242c72bc4b6b893f0165fd51b0d7bfa8ca02298b5608b5f7c03f41",
       "errors": []
     },
     {
@@ -68,14 +68,14 @@
     },
     {
       "path": "midi/jc02-quickstep-relay/jc02-quickstep-relay-combined.mid",
-      "bytes": 8180,
-      "sha256": "1de487b5eda337b353356dbc8dd8c2ba36bd1364107d2c6d06e8713befd70dc7",
+      "bytes": 7496,
+      "sha256": "40e093f48b86b94d716b51c642fccdc75935542286f21db0a9532a3b2169d8e2",
       "errors": []
     },
     {
       "path": "midi/jc02-quickstep-relay/principal_motif.mid",
-      "bytes": 1633,
-      "sha256": "2a4bf2e125910182815e12f89c1ad585eb00599326ada35993e1049a0c1908f5",
+      "bytes": 949,
+      "sha256": "352293d1d0e07b0658b8721a43bc32ce06825d415eaee3f66f639e5de3330b53",
       "errors": []
     },
     {
@@ -110,14 +110,14 @@
     },
     {
       "path": "midi/jc03-cut-window/jc03-cut-window-combined.mid",
-      "bytes": 8179,
-      "sha256": "2be2ddc0f4867006c0e79c2470fecb0620720db34d02c3f477543d3840807b1c",
+      "bytes": 7495,
+      "sha256": "975b6492de5fde92d03a85ee009ad9bbee91771ac76189046716c375e66f90b4",
       "errors": []
     },
     {
       "path": "midi/jc03-cut-window/principal_motif.mid",
-      "bytes": 1632,
-      "sha256": "4e8e508d5998ed5014e885e0519042c580eb395c010589268849220d3c72b59e",
+      "bytes": 948,
+      "sha256": "3ef92c7f00dfe85c861ed8dc738230dd6c97dddb1167dd44b83a72fb84d116d2",
       "errors": []
     },
     {
@@ -152,14 +152,14 @@
     },
     {
       "path": "midi/jc04-voltage-return/jc04-voltage-return-combined.mid",
-      "bytes": 8179,
-      "sha256": "86be0f9219ee16b9d1588cadd8d3c4b9e0a4f5c82a85e0c659c8b2009f9c46dc",
+      "bytes": 7496,
+      "sha256": "2f555787a42ce8f2f812b2e413c89c93833402785e3c4bb88d60b535ae810c92",
       "errors": []
     },
     {
       "path": "midi/jc04-voltage-return/principal_motif.mid",
-      "bytes": 1632,
-      "sha256": "f18375c0f641c81ec7d354a3a9743e7cf37f8fe5de67f260c59ef322d5defcdc",
+      "bytes": 949,
+      "sha256": "0774e0bb7e69c8ec9aaa7cc319457a79abfe722b8343b087f4f3db9da24dea24",
       "errors": []
     },
     {

@@ -51,3 +51,7 @@ python -m http.server 4173
 ## Renderer metadata correction
 
 See [the correction receipt](RENDERER-METADATA-CORRECTION.md) for the documented signal-path update and original-tag boundary.
+
+## Melody revision
+
+The current product page and archive include revised principal melodies. The original `v1.0.0` tag preserves the earlier release. See [REVISION.md](REVISION.md) for verification and review limits.
