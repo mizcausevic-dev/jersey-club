@@ -78,8 +78,8 @@
     },
     {
       "path": "downloads/jersey-club-midi.zip",
-      "bytes": 32096,
-      "sha256": "388e96b0edaf0ad6d223e61cf3f9fa1d969bc5c84e3a6415ee069977d0cce365"
+      "bytes": 34549,
+      "sha256": "c3e86bd37759c29badc0fa5cd8e474ca10fb8b48f28a7c85c6af548e545babe4"
     },
     {
       "path": "film/motion-artwork.webp",
@@ -113,8 +113,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 10305,
-      "sha256": "1fc6627970b659656b0872f57ee82bf98a40df1e5d9af491f1b56304fc5d9095"
+      "bytes": 10495,
+      "sha256": "6e31edf8dca25445aa73de753cc3d7c51ed5e64722d71741f7b28cef7f7c7734"
     },
     {
       "path": "midi/jc01-latch-point/chord_pulse.mid",
@@ -257,6 +257,11 @@
       "sha256": "879d5d907a3ace2f0e115b8c8e2771e2d5b55d300e593edab817ee6f8bcba43f"
     },
     {
+      "path": "MIDI-BUYER-LICENSE-v1.0.txt",
+      "bytes": 1652,
+      "sha256": "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9"
+    },
+    {
       "path": "MOTION-PREVIEW.md",
       "bytes": 782,
       "sha256": "519599249a948c3fba36cb5bbe7063a1b9553bdbf74a93de179f20e3b754e841"
@@ -273,8 +278,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3362,
-      "sha256": "034a315f1053a6d3e500b767bff949da5ba480838035565facaa98c806708826"
+      "bytes": 3477,
+      "sha256": "71f6a451491ea4a72cf7fc778aabdae28bc01e098455b5ce879b808843db9851"
     },
     {
       "path": "RENDERER-METADATA-CORRECTION.md",
