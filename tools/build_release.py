@@ -218,10 +218,14 @@ def write_release_spec(root: Path, pack: dict, studies: list[dict]) -> Path:
 
 
 def make_zip(root: Path, pack: dict, parts: list[Path], combined: list[Path], metadata: list[Path]) -> Path:
+    license_file = root / "MIDI-BUYER-LICENSE-v1.0.txt"
+    if not license_file.is_file() or hashlib.sha256(license_file.read_bytes()).hexdigest() != "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9":
+        raise ValueError("Approved MIDI buyer license v1.0 is missing or modified")
     archive = root / "downloads" / f"{pack['slug']}-midi.zip"
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as output:
         for path in parts + combined + metadata:
             output.write(path, rel(root, path))
+        output.write(license_file, "MIDI-BUYER-LICENSE-v1.0.txt")
     return archive
 
 
@@ -347,6 +351,9 @@ def main() -> int:
     parser.add_argument("--pack", choices=sorted(PACKS), required=True)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     args = parser.parse_args(); root = args.root.resolve(); pack = dict(PACKS[args.pack]); pack["slug"] = args.pack
+    license_file = root / "MIDI-BUYER-LICENSE-v1.0.txt"
+    if not license_file.is_file() or hashlib.sha256(license_file.read_bytes()).hexdigest() != "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9":
+        raise ValueError("Approved MIDI buyer license v1.0 is missing or modified")
     for name in ("midi", "preview", "film", "art", "social", "articles", "catalog", "checks", "downloads", "docs"):
         shutil.rmtree(root / name, ignore_errors=True)
     for name in ("midi", "preview", "art", "social/instagram", "social/x", "articles", "catalog", "checks/fixtures", "downloads"):

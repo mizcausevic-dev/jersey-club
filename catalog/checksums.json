@@ -308,8 +308,8 @@
     },
     {
       "path": "tools/build_release.py",
-      "bytes": 47876,
-      "sha256": "8a889b9a87e94127a351ae28bfd0c163ad812a96d28a843d18e6c0649de52b11"
+      "bytes": 48546,
+      "sha256": "ae442efd76cec2a60147b0275cc31631b28ce11c8a0f106b9c0eaea48d174c22"
     },
     {
       "path": "tools/render_motion_preview.py",
@@ -318,8 +318,8 @@
     },
     {
       "path": "tools/validate_release.py",
-      "bytes": 13763,
-      "sha256": "c590a3c9e44249ddc1a2d14a048dea0f3e1ef0a232d3b86ea96a0f4eafeff6a5"
+      "bytes": 14324,
+      "sha256": "65d466715c21dec914c126319843cd4e313390928257d3e0f5a7861485c2a4c3"
     }
   ]
 }

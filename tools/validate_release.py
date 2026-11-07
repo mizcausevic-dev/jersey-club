@@ -191,6 +191,12 @@ def validate(root: Path) -> dict:
     try:
         with zipfile.ZipFile(archive) as package:
             names = package.namelist()
+            license_name = "MIDI-BUYER-LICENSE-v1.0.txt"
+            license_file = root / license_name
+            if not license_file.is_file() or hashlib.sha256(license_file.read_bytes()).hexdigest() != "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9":
+                add_error(errors, "approved MIDI buyer license missing or modified")
+            elif names.count(license_name) != 1 or package.read(license_name) != license_file.read_bytes():
+                add_error(errors, "ZIP must contain exactly one matching MIDI buyer license")
             if any(name.startswith("/") or ".." in Path(name).parts or "\\" in name for name in names): add_error(errors, "ZIP has unsafe member path")
             if not {path.relative_to(root).as_posix() for path in midi_files}.issubset(set(names)): add_error(errors, "ZIP is missing MIDI members")
             for name in names:
